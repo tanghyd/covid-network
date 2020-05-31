@@ -7,9 +7,13 @@ Folders:
 - figures : static images produced for both the reports and slides
 
 - data : Here all data used to run the notebook is provided. The raw source data for all the flight information is not provided as it would be too large.
+
 --- network : we've provided the processed flight data in the network subdirectory. This has a table of airport information, as well as csv files for each month that correspond to the edges used to build the network.
---- covid19 : timeseries data sourced from John Hopkins University. We only use the confirmed cases from this dataset, but there is more information regarding recovered cases and deaths, and much more data online.
+
+--- covid19 : timeseries data sourced from Johns Hopkins University. We only use the confirmed cases from this dataset, but there is more information regarding recovered cases and deaths, and much more data online.
+
 --- gadm : these are manually downloaded shapefiles for australian state and chinese province borders. The US state borders and global country borders are downloaded via the natural earth api in the notebook itself.
+
 
 
 We also include in the base directory:
